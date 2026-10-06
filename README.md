@@ -1,48 +1,107 @@
-# vue-project
+<div align="center">
 
-This template should help get you started developing with Vue 3 in Vite.
+<!-- ═══════ HEADER ═══════ -->
 
-## Recommended IDE Setup
+<img src="https://capsule-render.vercel.app/api?type=rect&color=41B883&height=160&section=header&text=Froggy-Fruit&fontSize=60&fontAlignY=45&desc=A%20browser%20game%20about%20a%20frog%20that%20collects%20fruit&descAlignY=70&descSize=16&fontColor=ffffff" width="100%"/>
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+<br/>
 
-## Recommended Browser Setup
+<p>
+  <img src="https://img.shields.io/badge/Vue.js-3.x-41B883?style=for-the-badge&logo=vuedotjs&logoColor=white" />
+  <img src="https://img.shields.io/badge/TypeScript-5.x-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
+  <img src="https://img.shields.io/badge/Vite-5.x-646CFF?style=for-the-badge&logo=vite&logoColor=white" />
+  <img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" />
+</p>
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
+<p>
+  <img src="https://img.shields.io/badge/status-active-41B883?style=flat-square" />
+  <img src="https://img.shields.io/badge/platform-web-lightgrey?style=flat-square" />
+  <img src="https://img.shields.io/badge/controls-keyboard-informational?style=flat-square" />
+</p>
 
-## Type Support for `.vue` Imports in TS
+</div>
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%"/>
 
-## Customize configuration
+<!-- ═══════ ОПИСАНИЕ ═══════ -->
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+## О проекте
 
-## Project Setup
+**Froggy-Fruit** — браузерная игра на Vue.js, в которой лягушка собирает падающие фрукты. Управление полностью лежит на игроке: ни автоматики, ни подсказок — только реакция и внимание.
 
-```sh
+Проект задуман как компактная аркада с простой механикой, но требующая концентрации. Идеально подходит для коротких сессий и демонстрации возможностей Vue в игровом контексте.
+
+<br/>
+
+<!-- ═══════ ПРЕВЬЮ ═══════ -->
+
+<br/>
+
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%"/>
+
+<!-- ═══════ ПРАВИЛА ═══════ -->
+
+## Основы игры
+
+<div align="center">
+
+| № | Правило |
+|:-:|:--|
+| **01** | Собирай все фрукты, появляющиеся на поле |
+| **02** | Передвигайся влево и вправо, чтобы успеть к цели |
+| **03** | Нажми **Space** — и все фрукты на экране соберутся разом |
+| **04** | Минимум для прохождения уровня — **10 фруктов** |
+
+</div>
+
+<br/>
+
+<!-- ═══════ УПРАВЛЕНИЕ ═══════ -->
+
+## Управление
+
+<div align="center">
+
+| Клавиша | Действие |
+|:--:|:--|
+| <kbd>←</kbd> / <kbd>→</kbd> | Движение влево / вправо |
+| <kbd>Space</kbd> | Мгновенный сбор всех фруктов |
+| <kbd>Esc</kbd> | Пауза / выход в меню |
+
+</div>
+
+<br/>
+
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%"/>
+
+<!-- ═══════ СТЕК ═══════ -->
+
+## Технологии
+
+<div align="center">
+
+<img src="https://skillicons.dev/icons?i=vue,ts,vite,pinia&theme=dark" />
+
+</div>
+
+<br/>
+
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%"/>
+
+<!-- ═══════ УСТАНОВКА ═══════ -->
+
+## Установка и запуск
+
+```bash
+# Клонировать репозиторий
+git clone https://github.com/gugl6369-ops/froggy-fruit.git
+cd froggy-fruit
+
+# Установить зависимости
 npm install
-```
 
-### Compile and Hot-Reload for Development
-
-```sh
+# Запустить dev-сервер
 npm run dev
-```
 
-### Type-Check, Compile and Minify for Production
-
-```sh
+# Собрать production-версию
 npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
